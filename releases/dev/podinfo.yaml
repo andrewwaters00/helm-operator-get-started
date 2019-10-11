@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: andrewwaters00/podinfo:latest
+    image: andrewwaters00/podinfo
     replicaCount: 1
     hpa:
       enabled: false
