@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: andewwaters00/podinfo:dev-t98dax2k
+    image: andrewwaters00/podinfo:latest
     replicaCount: 1
     hpa:
       enabled: false
